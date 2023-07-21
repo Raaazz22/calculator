@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Calculator</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script src="js/script.js"></script>
+
+   </head>
+   
+   <body>
+     <div id="main">
+	    
+	    <div id="row1">
+		   <input type="button" value="" id="display" />
+		</div>
+		
+		
+		
+		
+		<div id="keyboard">
+		  
+		  <div class="col">
+		    <input type="button" value="7" onclick="seven()"/>
+			<input type="button" value="4" onclick="four()"/>
+			<input type="button" value="1" onclick="one()"/>
+			<input type="button" value="." onclick="decimal()"/>
+		  </div>
+		  
+		  <div class="col">
+		    <input type="button" value="8" onclick="eight()" />
+			<input type="button" value="5" onclick="five()"/>
+			<input type="button" value="2"/ onclick="two()">
+			<input type="button" value="0" onclick="zero()"/>
+			
+		  </div>
+		  
+		  <div class="col">
+		    <input type="button" value="9" onclick="nine()"/>
+			<input type="button" value="6" onclick="six()"/>
+			<input type="button" value="3" onclick="three()"/>
+			<input type="button" value="/" onclick="division()" />
+		  </div>
+		  
+		  <div class="col">
+			<input type="button" value="*" onclick="multiply()"/>
+			<input type="button" value="-" onclick="minus()" />
+			<input type="button" value="DEL" onclick="del()" />
+			<input type="button" value="AC" onclick="ac()" />
+			
+		  </div>
+		  
+		  <div class="col2">
+			<input type="button" value="+" onclick="plus()" />
+			<input type="button" value="=" onclick="equal()" />
+		  </div>
+		</div>
+	  </div>
+	 
+	 
+   </body>
+</html>
+
